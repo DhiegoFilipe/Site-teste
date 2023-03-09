@@ -1,0 +1,109 @@
+.cabecalho{
+display: flex;
+justify-content: 
+space-between;
+align-items: center;
+height: 100%;
+padding: 30px;
+max-width: 1440px;
+margin: 0 auto;
+}
+
+body{
+font-family: 'Times New Roman', Times, serif ;
+}
+
+.cabecalho .painel {
+display: flex;
+align-items: center;
+height: 100%;
+}
+.cabecalho .logo{
+width: 200px; 
+} 
+
+.container .sonicpulando {
+width: 220px;
+
+}
+
+.container .sonic {
+width: 300px;
+display: flex;
+align-items: center;
+height: auto;
+}
+
+.cabecalho nav li a {
+font-weight: bold;
+color: white;
+font-size: 25px;
+padding: 10px 20px;
+border-radius: 50px;
+transition: 0,3s;
+}
+
+.cabecalho nav li a:hover {
+background-color: red;
+}
+
+.container{
+max-width: 1440px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+height: calc(100vh - 132px);
+padding: 0 30px 30px;
+}
+
+.container .descricao {
+color: white ;
+width: 85%;
+font-size: 18px;
+margin: 30px 0;
+width: 50vw;
+height: 50vhh;
+}
+
+.container .video{
+background-color: brown;
+color: white;
+padding: 15px;
+font-size: 18px;
+font-weight: bold;
+cursor: pointer;
+border: none;
+text-transform: 
+uppercase;
+transition: 0,5s all ease-out
+}
+
+.container .video:hover{
+transform: scale(1.1);
+}
+
+.tecla {
+position: absolute;
+z-index: -1;
+overflow: hidden
+
+}
+
+.tecla::after {
+content: "";
+background-color: blue;
+height: 200vh;
+width: 200vw;
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0.3;
+}
+
+
+
+
+
+
+
+
